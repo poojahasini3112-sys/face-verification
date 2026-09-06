@@ -1,0 +1,22 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Temporary Test Output Images
+extracted_doc_face.jpg
+live_captured_face.jpg
+temp_doc_face.jpg
+temp_live_face.jpg
+test_extracted.jpg
+
+# DeepFace / TensorFlow / MediaPipe Weights & Models
+*.h5
+*.task
+.deepface/
